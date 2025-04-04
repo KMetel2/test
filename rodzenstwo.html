@@ -1,0 +1,28 @@
+
+<!-- saved from url=(0058)file:///C:/Users/IVTia%20Kacper/Desktop/JS/rodzenstwo.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script src="./rodzenstwo_files/jquery.min.js.pobrane"></script>
+<script>
+    $(function($){
+        $("h2").siblings().css({"color": "red", "border": "2px solid red"
+        });
+    })
+</script>
+<style>
+    .siblings * {
+        display: block;
+        border: 2px solid lightgray;
+        color: lightgray;
+        padding: 5px;
+        margin: 15px;
+    }
+</style>
+</head><body class="siblings">
+    <div>
+        div (parent)
+        <p style="color: red; border: 2px solid red;">p</p>
+        <span style="color: red; border: 2px solid red;">span</span>
+        <h2>h2</h2>
+        <h3 style="color: red; border: 2px solid red;">h3</h3>
+        <p style="color: red; border: 2px solid red;">p</p>
+    </div>
+</body></html>
